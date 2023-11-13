@@ -56,7 +56,7 @@ const CollectionCard = ({ collection }: Props) => {
       await deleteCollection(collection.id)
       toast({
         title: 'Success',
-        description: 'Collection has been successfullt removed',
+        description: 'Collection has been successfully removed',
       })
       router.refresh()
     } catch (error) {
